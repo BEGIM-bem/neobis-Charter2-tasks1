@@ -1,0 +1,34 @@
+.first-versions{
+    width: 500px;
+    height: 420px;
+    border: 3px solid #F0FFF0;     ;
+    background:#ff0040;
+    font-size: 19px;
+    margin-top: 60px;
+    margin-left: 30px;
+    border: 2px solid black;
+    
+
+}
+.second-versions{
+    width: 300px;
+    height: 250px;
+    border: 3px solid #F0FFF0;     ;
+    background:blueviolet;
+    font-size: 19px;
+    margin-top: 110px;
+    margin-left: 20px;
+    border: 2px solid black;
+}
+.Tasks1{
+    width: 1350px;
+    height: 500px;
+    background: chocolate;
+  
+    display: flex;
+   justify-content: center;
+    
+}
+.Tasks1__title{
+    color:darkgreen
+}

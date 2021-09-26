@@ -1,0 +1,18 @@
+.Tasks6{
+    width: 1350px;
+    height: 500px;
+    background: chocolate;
+  
+    display: flex;
+   justify-content: center;
+}
+
+.first-versions-ver{
+    width: 320px;
+    height: 320px;
+}
+
+.btnSart{
+    background:burlywood;
+    border: 0;
+}

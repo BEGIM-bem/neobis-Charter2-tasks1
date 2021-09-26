@@ -1,0 +1,26 @@
+.Tasks4{
+    width: 1350px;
+    height: 800px;
+    background: chocolate;
+  
+    display: flex;
+   justify-content: center;
+}
+
+
+.first-versions-zd4{
+    height: 640px;
+    font-size: 16px;
+   
+
+}
+
+
+.second-versions-tasks4{
+    width: 600px;
+    height: 500px;
+    font-size: 15px;
+    
+
+
+}

@@ -1,0 +1,8 @@
+.Tasks5{
+    width: 1350px;
+    height: 500px;
+    background: chocolate;
+  
+    display: flex;
+   justify-content: center;
+}

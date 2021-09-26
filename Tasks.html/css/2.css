@@ -1,0 +1,41 @@
+.Tasks2{
+    width: 1350px;
+    height: 500px;
+    background: chocolate;
+  
+    display: flex;
+   justify-content: center;
+}
+
+
+.Tasks2_titile{
+   
+    height: 40px;
+    color:darkgreen;
+    padding-left: 550px;
+    white-space: nowrap;
+
+}
+.firstVersions1{
+   
+    background:#ff0040;
+    margin-top: 100px;
+    border: 2px solid black;
+    font-size: 19px;
+   
+}
+
+.Tasks2__container{
+    display: flex;
+margin-right: 800px;
+}
+
+.element{
+    font-size: 20px;
+    color: black;
+    
+
+}
+.second-versions{
+    background: blue;
+}

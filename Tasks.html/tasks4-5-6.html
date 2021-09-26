@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks4-5-6</title>
+
+    <link rel="stylesheet" href="css/1.css">
+    <link rel="stylesheet" href="css/2.css">
+    <link rel="stylesheet" href="css/3.css">
+    <link rel="stylesheet" href="css/4.css">
+    <link rel="stylesheet" href="css/5.css">
+    <link rel="stylesheet" href="css/6.css">
+
+
+
+
+<body>
+
+
+    <div class="Tasks4">
+        <h1 class='Tasks1__title'>Задание 4</h1>
+        <div class="first-versions first-versions-zd4">
+            <h1>УСЛОВИЕ</h1>
+            <article>
+                <h3>What is Lorem Ipsum?</h3>
+                <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages.</span>
+                <h3>Where does it come from?</h3>
+                <span>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                    classical Latin literature from 45 BC, making it over 2000 years old. The first line of Lorem Ipsum,
+                    "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. from "The Extremes of Good and
+                    Evil" by Cicero</span>
+                <h3>Why do we use it?</h3>
+                <span>It is a long established fact that a reader will be distracted by the readable content of a page
+                    when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here, content here', making it look like
+                    readable English.</span>
+            </article>
+
+            <span>Вам необходимо с помощью JavaScript вставить после каждого тега
+                <span> тег для визуального отделения абзацев друг от друга.
+                    Указания:<br>
+                    * Подразумевается, что вышеуказанная разметка находится внутри тега<br>
+                    * Нельзя модифицировать указанную разметку.<br>
+                    * За использование цикла дополнительные баллы.
+                </span>
+        </div>
+
+
+        <div class="second-versions second-versions-tasks4">
+            <h1>
+                РЕШЕНИЕ
+            </h1>
+            <article>
+                <h3>What is Lorem Ipsum?</h3>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                    the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                    type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                    the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                    1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+                <h3>Where does it come from?</h3>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                    classical Latin literature from 45 BC, making it over 2000 years old. The first line of Lorem
+                    Ipsum,
+                    "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. from "The Extremes of Good
+                    and
+                    Evil" by Cicero</p>
+                <h3>Why do we use it?</h3>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                    when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here, content here', making it look like
+                    readable English.</p>
+            </article>
+
+
+
+        </div>
+    </div>
+
+
+
+    <div class="Tasks5">
+        <h1 class='Tasks1__title'>Задание 5</h1>
+        <div class="first-versions">
+            <h1>УСЛОВИЕ</h1>
+            <link rel="stylesheet" href="css/4.css">
+            Дана такая разметка:
+            <div class="content">
+                <div id="cart-items">
+                    <div> Milk 1 l.x 2</div>
+                    <div>Cola 1.5 l. x 1 </div>
+                    <div>Bread x 2</div>
+                    <div>Cheesex 1</div>
+                    <div>Chocolate bar x 3</div>
+                </div>
+
+                Необходимо с помощью JavaScript удалить элемент "Cola 1.5 l" и заменить товар "Chocolate bar" на "Canned
+                Fish", количеством 4 штуки.<br>
+
+                Указания:<br>
+                Для удаления использовать .remove()<br>
+                Для замены использовать .replaceChild()<br>
+                Подразумевается, что вышеуказанная разметка находится внутри тега body
+            </div>
+        </div>
+
+        <div class="second-versions ">
+            <h1>
+                РЕШЕНИЕ
+            </h1>
+            <div id="cart-items">
+                <div class="item">Milk 1 l.<span class="qty">x 2</span></div>
+                <div id="item1">Cola 1.5 l. <span class="qty">x 1</span></div>
+                <div class="item">Bread<span class="qty">x 2</span></div>
+                <div class="item">Cheese<span class="qty">x 1</span></div>
+                <div id="item2">Chocolate bar<span class="qty">x 3</span></div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="Tasks5">
+        <h1 class='Tasks1__title'>Задание 5</h1>
+        <div class="first-versions first-versions-ver">
+            <h1>УСЛОВИЕ</h1>
+            <div>Напишите программу для создания списка задач, которые будет вводить пользователь:
+                в
+                Для каждого пункта:
+                Запрашивайте содержимое пункта у пользователя с помощью prompt.
+                Создавайте пункт и добавляйте его к UL.
+                Процесс прерывается, когда пользователь нажимает "Отмена" или вводит пустую строку.
+
+            </div>
+        </div>
+
+        <div class="second-versions ">
+            <h1>
+                РЕШЕНИЕ
+            </h1>
+            <button class="btnSart">Начать создания списка задач</button>
+
+
+
+        </div>
+
+</body>
+<script src="./js/4.js"></script>
+<script src="./js/5.js"></script>
+<script src="./js/6.js"></script>
+
+</html>

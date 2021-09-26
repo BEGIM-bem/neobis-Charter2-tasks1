@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/1.css">
+    <link rel="stylesheet" href="./css/2.css">
+    <link rel="stylesheet" href="css/3.css">
+
+
+    <title>Tasks1-2-3</title>
+</head>
+
+<body>
+    <div class="Tasks1">
+        <h1 class='Tasks1__title'>Задание 1</h1>
+        <div class="first-versions">
+            <h1>УСЛО́ВИЕ </h1>
+            <p> На странице есть верстка:</p>
+
+            <div id="string-1">Ядра в вёдра, выдру в тундру!</div>
+            <div id="string-2">Выдрав с выдры в тундре гетры</div>
+            <div id="string-3">В недрах тундры, выдры в гетрах </div>
+            <div id="string-4">Вытру гетрой выдре морду </div>
+            <div id="string-5">Тырят в вёдра ядра кедров!</div>
+            <div id="string-6">Вытру выдрой ядра кедров</div>
+
+            <p>Необходимо поочередно обратиться к каждому тэгу в нужном порядке, и вывести их
+                содержимое в консоль, чтобы получилась осмысленная скороговорка.
+
+                Вывод в консоли:
+                В недрах тундры, выдры в гетрах
+                Тырят в вёдра ядра кедров!
+                Выдрав с выдры в тундре гетры
+                Вытру выдрой ядра кедров
+                Вытру гетрой выдре морду
+                Ядра в вёдра, выдру в тундру!</p>
+        </div>
+
+        <div class="second-versions">
+            <h1>
+                РЕШЕНИЕ
+            </h1>
+            <div id="string-3">В недрах тундры, выдры в гетрах </div>
+            <div id="string-5">Тырят в вёдра ядра кедров!</div>
+            <div id="string-2">Выдрав с выдры в тундре гетры</div>
+            <div id="string-6">Вытру выдрой ядра кедров</div>
+            <div id="string-4">Вытру гетрой выдре морду </div>
+            <div id="string-1">Ядра в вёдра, выдру в тундру!</div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="Tasks2">
+        <h1 class="Tasks2_titile">Задание 2</h1>
+        <div class="Tasks2__container">
+
+            <div class="firstVersions1">
+                <h1>УСЛОВИЕ</h1>
+                На странице есть верстка
+
+                <div class="element">Element 1</div>
+                <div class="element">Element 2</div>
+                <div class="element">Element 3</div>
+                <div class="element">Element 4</div>
+                <div class="element">Element 5</div>
+                <div class="element">Element 6</div>
+
+                <p>С помощью JS необходимо первым трем <br>элементам задать
+                    красный цвет текста, а остальным<br> трем - зеленый.</p>
+            </div>
+
+            <div class="second-versions">
+                <h1>
+                    РЕШЕНИЕ
+                </h1>
+                <div class="element__color1">
+                    <div class="element1">Element 1</div>
+                    <div class="element1">Element 2</div>
+                    <div class="element1">Element 3</div>
+                </div>
+                <div class='element__color2'>
+                    <div class="element2">Element 4</div>
+                    <div class="element2">Element 5</div>
+                    <div class="element2">Element 6</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class='Tasks3'>
+        <h1 class='Tasks1__title'>Задание 3</h1>
+        <div class="first-versions">
+            <h1>УСЛОВИЕ</h1>
+            <p>На странице есть контейнер
+            <ol id="todo-list"></ol>, необходимо с помощью цикла
+            добавить в него пять задач (элементов <li>) с классом
+                task и текстом, взятым из массива задач из пяти элементов:
+
+                var tasks = ['Buy lemonade', 'Make toasts', 'Repair car',
+                'Play games', 'Pet a cat'];
+
+                Ожидаемый результат в инспекторе после выполнения скрипта:
+
+                <ol id="todo-list">
+                    <li class="task">Buy lemonade</li>
+                    <li class="task">Make toasts</li>
+                    <li class="task">Repair car</li>
+                    <li class="task">Play games</li>
+                    <li class="task">Pet a cat</li>
+                </ol>
+                </p>
+        </div>
+        <div class="second-versions">
+            <h1>
+                РЕШЕНИЕ
+            </h1>
+
+            <ol id="todoList1">
+            </ol>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+<script src='./js/2.js'>
+</script>
+<script src='./js/3.js'></script>
+
+
+</html>
